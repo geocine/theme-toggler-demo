@@ -8,6 +8,13 @@ body {
   padding: 10px;
 }
 
+body.dark {
+  --theme-background: #4c4b4b;
+  --theme-background-card: #303030;
+  --theme-color-card: #fff;
+
+}
+
 .card {
   background: var(--theme-background-card);
   color: var(--theme-color-card);
