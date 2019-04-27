@@ -1,0 +1,30 @@
+{
+  "name": "theme-toggler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geocine/theme-toggler.git"
+  },
+  "author": "Aivan Monceller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geocine/theme-toggler/issues"
+  },
+  "homepage": "https://github.com/geocine/theme-toggler#readme",
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "dependencies": {
+    "lit-element": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "parcel-bundler": "^1.12.3"
+  }
+}
