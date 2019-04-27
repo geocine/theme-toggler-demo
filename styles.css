@@ -1,12 +1,16 @@
 body {
+  --theme-background: #fff;
+  --theme-background-card: #fff;
+  --theme-color-card: #000;
+
   margin: 0;
-  background: #fff;
+  background: var(--theme-background);
   padding: 10px;
 }
 
 .card {
-  background: #fff;
-  color: #000;
+  background: var(--theme-background-card);
+  color: var(--theme-color-card);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   padding: 10px 16px;
