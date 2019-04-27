@@ -2,7 +2,20 @@ import { LitElement, html, css } from 'lit-element';
 
 class ThemeToggler extends LitElement {
   static get styles() {
-    return css``;
+    return css`
+
+      div {
+        background: green;
+        color: white;
+        font-weight: bold;
+        display: inline-block;
+        padding: 5px;
+        border-radius: 3px;
+        font-size: 10px;
+        cursor: pointer;
+      }
+
+    `;
   }
 
   static get properties() {
