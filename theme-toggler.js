@@ -19,6 +19,11 @@ class ThemeToggler extends LitElement {
   handleClick() {
     this.checked = !this.checked;
     console.log(`Dark Mode ${this.checked ? 'Enabled' : 'Disabled'}`);
+    if (this.checked) {
+      document.body.classList.add('dark');
+    } else {
+      document.body.classList.remove('dark');
+    }
   }
 
   render() {
