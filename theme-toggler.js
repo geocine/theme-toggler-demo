@@ -107,8 +107,7 @@ class ThemeToggler extends LitElement {
 
   static get properties() {
     return {
-      checked: { type: Boolean },
-      index: { type: String }
+      checked: { type: Boolean }
     };
   }
 
@@ -120,7 +119,7 @@ class ThemeToggler extends LitElement {
   handleClick() {
     this.checked = !this.checked;
     console.log(
-      `Dark Mode ${this.index || ''}: ${this.checked ? 'Enabled' : 'Disabled'}`
+      `Dark Mode: ${this.checked ? 'Enabled' : 'Disabled'}`
     );
     if (this.checked) {
       document.body.classList.add('dark');
