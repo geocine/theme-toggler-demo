@@ -8,10 +8,15 @@ class ThemeToggler extends LitElement {
   constructor() {
     super();
   }
+  handleClick() {
+    console.log('Dark Mode Enabled');
+  }
 
   render() {
     return html`
-      <div></div>
+      <div @click="${this.handleClick}">
+        Dark Mode
+      </div>
     `;
   }
 }
